@@ -50,8 +50,11 @@ namespace DatabaseManager
                     Process.Start(path + "\\select_db_file.bat");
                     break;
                 case "EXPORT DB":
+                    MessageBox.Show("To follow, batch file script is ready.");
                     break;
                 case "RESET DATABASE":
+                    MessageBox.Show("To follow, batch file script is ready.");
+
                     break;
 
             }

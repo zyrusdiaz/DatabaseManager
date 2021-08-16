@@ -77,7 +77,6 @@
     <Compile Include="ConnectToDatabase.Designer.cs">
       <DependentUpon>ConnectToDatabase.cs</DependentUpon>
     </Compile>
-    <Compile Include="global.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
