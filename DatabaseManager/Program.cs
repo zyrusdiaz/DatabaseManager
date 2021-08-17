@@ -38,7 +38,7 @@ namespace DatabaseManager
                         tryAgain = false;
                         Application.EnableVisualStyles();
                         Application.SetCompatibleTextRenderingDefault(false);
-                        Application.Run(new Main());
+                        Application.Run(new AdminCenter());
                     }
                     else
                     {
