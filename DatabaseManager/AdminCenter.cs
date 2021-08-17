@@ -26,10 +26,14 @@ namespace DatabaseManager
                 c.ShadowDecoration.Enabled = false;
                 c.Size = new Size(56, 53);
                 c.ImageSize = new Size(40, 40);
+                //235, 84, 92
+                c.FillColor = Color.FromArgb(235, 84, 92);
             }
             (sender as Guna2TileButton).ShadowDecoration.Enabled = true;
             (sender as Guna2TileButton).Size = new Size(60,57);
             (sender as Guna2TileButton).ImageSize = new Size(45, 45);
+            (sender as Guna2TileButton).FillColor = ColorTranslator.FromHtml("#FABC0A");
+            
         }
     }
 }
